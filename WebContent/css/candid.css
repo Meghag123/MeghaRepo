@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+
+
+.candidButton{
+	width: 730px;
+    height: 55px;
+    border-radius: 31px;
+    border-color: black;
+    background: transparent;
+    font-size: 22px;
+    
+    
+}
+
+.providerButton{
+	height: 55px;
+    width: 737px;
+    border-radius: 31px;
+    background: transparent;
+    border-color: black;
+    font-size: 22px;
+}
+
+.candidLink{	    
+   
+    color: aliceblue;
+	
+}
+.providerLink{
+	font-size: 22px;
+    color: aliceblue;
+}
+
+.head{
+	margin-top: 45px;
+	color: aliceblue;
+}
+table{
+	border-style: outset;
+    padding: 15px;
+    font-size: 25px;
+}
+.edit{
+	color:black;
+}
+
+.apply{
+	width: 123px;
+    height: 44px;
+    border-style: outset;
+    background-color: bisque;
+    border-radius: 13px;
+}
+.aApply{
+	font-size:15px;
+	color:black;
+}

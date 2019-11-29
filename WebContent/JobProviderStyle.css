@@ -1,0 +1,85 @@
+
+@CHARSET "ISO-8859-1";
+
+.required{
+color:red;
+}
+input[type='radio']{
+        width: 15px;
+        height: 15px;
+        /*border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #c0c0c0;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;*/
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #000080;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+    .body{
+    font-size: large;
+    }
+    
+    input[type='text'],[type='email'],[type='password'],[type='number'],[type='date']{
+    height: 26px;
+    border-radius: 7px;
+    }
+    textarea{
+    height: 152px;
+    width: 164px;
+    border-radius: 9px;
+    }
+    
+.secStyle{
+    /*background-color: lightblue;*/
+    opacity: 0.5;
+    background-image: url("tune4jobs.jpg");
+    background-size: 1550px;
+  width: 1527px;
+  height: 744px;  
+}
+
+.divStyle{
+    color: black;
+    margin-left: 275px;
+    margin-top: 255px;
+}
+.divSty{
+	color: black;
+    margin-left: 35px;
+    margin-top: 251px;
+}
+#btn button{
+	margin-top: 25px;
+	margin-left: 450px;
+}
+
+#btn:hover{
+	background-color: yellow;
+}
+.loginform{
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    margin-left: 500px;
+    margin-top: 250px;
+
+}
+.tablelogin{
+    margin-top: 200px;
+}
